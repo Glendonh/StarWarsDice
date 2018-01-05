@@ -1,5 +1,70 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  background-color: #000;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.jumbotron {
+  background-color: #000;
+  color: #feda4a;
+  text-align: center;
+  padding: 2rem;
+  
+}
+
+.sectionBox, .resultBox {
+  border: 3px solid #4bd5ee;
+  border-radius: 25px;
+  background-color: #aaa;
+}
+
+.dieType {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 3px
+}
+
+.ability {
+  background-color: green;
+}
+.proficiency {
+  background-color: #feda4a;
+}
+.boost {
+  background-color: skyblue;
+  color: white;
+}
+.difficulty {
+  background-color: purple;
+  color: white;
+}
+.challenge {
+  background-color: red;
+  color: white;
+}
+.setback {
+  background-color: black;
+  color: white;
+}
+
+.centerButton{
+  margin-top: 1rem;
+}
+
+.resultBox {
+  background-color: #fff;
+  margin: auto;
+}
+
+.badge {
+  font-size: 2rem;
+}
+
+.badge-triumph {
+  background-color: #feda4a;
+  color: #000;
+}
+
+.badge-despair {
+  background-color: red;
 }

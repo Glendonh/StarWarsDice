@@ -290,14 +290,14 @@ function printResults() {
 function displayTriumph() {
     $('#triumphSpan').empty();
     for (i = 0; i < triumphCount; i++) {
-        $('#triumphSpan').append("Triumph!<br>");
+        $('#triumphSpan').append("<span class=\"badge badge-warning\">Triumph!</span>");
     }
 }
 
 function displayDespair() {
     $('#despairSpan').empty();
     for (i = 0; i < despairCount; i++) {
-        $('#despairSpan').append("Despair!<br>");
+        $('#despairSpan').append("<span class=\"badge badge-danger\">Despair</span>");
     }
 }
 
